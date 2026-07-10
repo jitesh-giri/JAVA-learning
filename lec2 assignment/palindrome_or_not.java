@@ -12,7 +12,6 @@ public class palindrome_or_not {
 
         String temp = num;
         String rev = "";
-        int rem;
 
         for(int i = temp.length() - 1; i >= 0; i--){
             rev = rev + temp.charAt(i);
@@ -24,5 +23,7 @@ public class palindrome_or_not {
         else{
             System.out.println(num + " is not a Palindrome.");
         }
+
+        sc.close();
     }
 }
