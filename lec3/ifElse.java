@@ -15,5 +15,6 @@ public class ifElse {
         else {
             System.out.println("Not eligible for voting");
         }
+        in.close();
     }
 }   

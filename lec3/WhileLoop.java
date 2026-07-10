@@ -13,5 +13,6 @@ public class WhileLoop {
 
             num += 1;
         }
+        sc.close();
     }
 }
