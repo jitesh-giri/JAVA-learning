@@ -10,7 +10,7 @@ public class dowhileLoop {
         do {
             System.out.println(n);
             n++;
-        } while (n < 1);
+        } while (n < 2);
 
         sc.close();
 
