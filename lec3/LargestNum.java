@@ -15,12 +15,18 @@ public class LargestNum {
 
         int max = a;
 
-        if (b > max) {
-            max = b;
-        }
-        if (c > max) {
-            max = c;
-        }
+        // method 1
+
+        // if (b > max) {
+        //     max = b;
+        // }
+        // if (c > max) {
+        //     max = c;
+        // }
+
+        // method 2
+        max = Math.max(c, Math.max(a, b));
+
 
         System.out.println(max);
 
