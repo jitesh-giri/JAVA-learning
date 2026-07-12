@@ -16,5 +16,7 @@ public class nthFibonacci {
         }
 
         System.out.println(b);
+
+        sc.close();
     }
 }
