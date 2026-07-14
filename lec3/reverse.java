@@ -15,6 +15,7 @@ public class reverse {
 
         System.out.println(a);
 
+        sc.close();
     }
 
 
