@@ -14,5 +14,7 @@ public class areaIsosceles {
         double area = 0.5 * base * height;
 
         System.out.println("The area of the isosceles triangle is: " + area);
+
+        sc.close();
     }
 }
