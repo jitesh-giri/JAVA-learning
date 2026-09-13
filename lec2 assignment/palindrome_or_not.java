@@ -10,11 +10,10 @@ public class palindrome_or_not {
         System.out.print("Enter a string: ");
         String num = sc.nextLine();
 
-        String temp = num;
         String rev = "";
 
-        for(int i = temp.length() - 1; i >= 0; i--){
-            rev = rev + temp.charAt(i);
+        for(int i = num.length() - 1; i >= 0; i--){
+            rev = rev + num.charAt(i);
         }
 
         if(num.equals(rev)){
