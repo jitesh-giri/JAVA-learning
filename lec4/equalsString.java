@@ -14,5 +14,7 @@ public class equalsString {
             System.out.println("Round shaped orange coloured fruit");
         }
 
+        sc.close();
+
     }
 }
